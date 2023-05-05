@@ -1,0 +1,104 @@
+
+
+body{
+    margin: 0;
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+.box{
+    border-radius: 10px;
+    position: absolute;
+    top: 97px;
+    left: 37%;
+    width: 370px;
+    min-height: 100px;
+    max-height: fit-content;
+    
+    background: linear-gradient(to right, #00feba,#5b548a);
+    
+}
+.box input{
+    border: none;
+    border-radius: 30px;
+    height: 39px;
+    width: 280px;
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+.box button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 67px;
+    position: relative;
+    top: 4.9%;
+    left: 2%;
+}
+.search{
+    position: relative;
+    top: 20px;
+}
+#Weathericon{
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+.info{
+    position: relative;
+    top: 30px;
+    left: 25%;
+    display: flex;
+    flex-direction:row ;
+}
+#city{
+    position: relative;
+    top: 7px;
+}
+.hum{
+    display: flex;
+    flex-direction: row;
+}
+#humi{
+    position: relative;
+    left: 20px;
+    width: 50px;
+    height:30px;
+}
+#humidity{
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+    left: 8%;
+}
+.humii{
+    position: relative;
+    top: 12px;
+    left: -23px;
+}
+#windyy{
+    position: relative;
+    left: 50px;
+    top: -5px;
+    width: 50px;
+    height:50px;
+}
+#wind{
+    font-size: 21.799px;
+    position: relative;
+    left: 52px;
+    top: -16px;
+}
+#windname{
+    position: relative;
+    top: 13px;
+    left:-18px;
+}
+#search{
+    cursor: text;
+}
+.w{
+    display: none;
+}
